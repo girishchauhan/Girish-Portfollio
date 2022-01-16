@@ -23,7 +23,7 @@ body {
 }
 
 .main-header {
-    position: sticky; 
+    position: sticky;
     top: 0;
 }
 
@@ -48,7 +48,8 @@ body {
 }
 
 .main-nav a.active {
-    background-color: rgb(51 51 51);;
+    background-color: rgb(51 51 51);
+    ;
     color: white;
 }
 
@@ -96,9 +97,9 @@ button, a {
         display: block;
         text-align: left;
     }
- 
- 
-    
+
+
+
 
 }
 
@@ -116,8 +117,8 @@ button, a {
     height: auto;
     background-color: blueviolet;
     margin: 19px auto;
-    
-     
+
+
 }
 
 .infocontainer {
@@ -131,11 +132,11 @@ button, a {
 .devinfo {
     font-size: 1.5em;
     text-align: center;
-    
+
 }
 
 .btn {
-    color:rgb(22, 61, 190);
+    color: rgb(22, 61, 190);
     padding: 7px 10px;
     font-size: 1em;
     margin: 10px 0px;
@@ -146,43 +147,44 @@ button, a {
 }
 
 .btn:hover {
-    background-color:rgb(15, 201, 86);
+    background-color: rgb(15, 201, 86);
     color: white;
 
 }
 
 .responsive {
-     height: 50vh;
-     
-  
+    height: 50vh;
+
+
 }
 
 /* Media Query start here */
 @media only screen and (max-width: 620px) {
+
     /* For mobile phones: */
     .container {
-      width: 100%;
+        width: 100%;
     }
 
     #file {
         display: flex;
         justify-content: center;
-    
+
     }
-    
-  }
+
+}
 
 /* Media Query ends here */
 
-  .main-para {
+.main-para {
     width: 90vw;
     height: auto;
     margin: 19px auto;
-  }
+}
 
-  .info {    
-      text-align: center;
-   
+.info {
+    text-align: center;
+
 
 }
 
@@ -190,8 +192,8 @@ button, a {
     padding: 10px 0px;
     font-size: 1.5em;
     text-align: center;
-    
-    
+
+
 }
 
 .para {
@@ -206,7 +208,7 @@ button, a {
     max-width: 90vw;
     height: 40vh;
     margin: 0 auto;
-    
+
 
 }
 
@@ -217,7 +219,7 @@ button, a {
     background-color: rgb(12, 182, 97);
     border-radius: 10px;
     width: 280px;
-    height:  158px;
+    height: 158px;
     margin: 5px auto;
     font-size: 1.2em;
     color: white;
@@ -225,13 +227,13 @@ button, a {
 
 .tbl {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     background-color: rgb(12, 182, 97);
     border-radius: 10px;
     max-width: 80vw;
-    height:  158px;
+    height: 158px;
     margin: 5px auto;
     color: white;
 }
@@ -242,14 +244,27 @@ label {
 }
 
 .box:hover {
-        background-color:rgb(204, 42, 177);
+    background-color: rgb(204, 42, 177);
     color: white;
 }
 
 .tbl:hover {
-    background-color:rgb(204, 42, 177);
-color: white;
+    background-color: rgb(204, 42, 177);
+    color: white;
 }
 
 
 
+.fcontainer, .nv1 {
+    background-color: aquamarine;
+    color: #c44a8d;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.nv1:hover {
+    background-color: rgb(204, 42, 177);
+    color: white;
+}
