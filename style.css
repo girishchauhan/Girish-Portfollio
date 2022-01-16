@@ -206,7 +206,7 @@ button, a {
     display: flex;
     flex-wrap: wrap;
     max-width: 90vw;
-    height: 40vh;
+    height: auto;
     margin: 0 auto;
 
 
@@ -255,13 +255,19 @@ label {
 
 
 
-.fcontainer, .nv1 {
+.ftcontainer {
     background-color: aquamarine;
-    color: #c44a8d;
     text-align: center;
     padding: 18px 16px;
+
+}
+
+.nv1 {
     text-decoration: none;
     font-size: 1.3rem;
+    color: #c44a8d;
+    padding: 0px 10px;
+
 }
 
 .nv1:hover {
