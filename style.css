@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.logos {
+    width: 3vw;
+    height: auto;
+    padding: 12px 8px
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+
+}
+
+.main-header {
+    position: sticky; 
+    top: 0;
+}
+
+.main-nav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.main-nav a {
+    float: left;
+    display: block;
+    color: #c44a8d;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.main-nav a:hover {
+    background-color: rgb(224, 35, 224);
+    color: white;
+}
+
+.main-nav a.active {
+    background-color: rgb(51 51 51);;
+    color: white;
+}
+
+.main-nav .icon {
+    display: none;
+}
+
+button, a {
+    cursor: pointer;
+}
+
+/* Media Query start here */
+@media screen and (max-width: 800px) {
+    .main-nav a:not(:first-child) {
+        display: none;
+    }
+
+    .main-nav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .logos {
+        width: 9vw;
+        height: auto;
+        padding: 18px 8px;
+
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .main-nav.responsive {
+        position: relative;
+    }
+
+    .main-nav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .main-nav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+ 
+ 
+    
+
+}
+
+/* Media Query ends here */
+
+/* .box1 {
+    
+    padding: 8px 108px;
+    
+    
+} */
+
+.main {
+    width: 90vw;
+    height: auto;
+    background-color: blueviolet;
+    margin: 19px auto;
+    
+     
+}
+
+.infocontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.devinfo {
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+
+.btn {
+    color:rgb(22, 61, 190);
+    padding: 7px 10px;
+    font-size: 1em;
+    margin: 10px 0px;
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 30px;
+
+}
+
+.btn:hover {
+    background-color:rgb(15, 201, 86);
+    color: white;
+
+}
+
+.responsive {
+     height: 50vh;
+     
+  
+}
+
+/* Media Query start here */
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .container {
+      width: 100%;
+    }
+
+    #file {
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+  }
+
+/* Media Query ends here */
+
+  .main-para {
+    width: 90vw;
+    height: auto;
+    margin: 19px auto;
+  }
+
+  .info {    
+      text-align: center;
+   
+
+}
+
+.head {
+    padding: 10px 0px;
+    font-size: 1.5em;
+    text-align: center;
+    
+    
+}
+
+.para {
+    font-size: 1.2em;
+}
+
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90vw;
+    height: 40vh;
+    margin: 0 auto;
+    
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 182, 97);
+    border-radius: 10px;
+    width: 280px;
+    height:  158px;
+    margin: 5px auto;
+    font-size: 1.2em;
+    color: white;
+}
+
+.tbl {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(12, 182, 97);
+    border-radius: 10px;
+    max-width: 80vw;
+    height:  158px;
+    margin: 5px auto;
+    color: white;
+}
+
+label {
+    padding-right: 10px;
+    font-size: 1.2em;
+}
+
+.box:hover {
+        background-color:rgb(204, 42, 177);
+    color: white;
+}
+
+.tbl:hover {
+    background-color:rgb(204, 42, 177);
+color: white;
+}
+
+
+

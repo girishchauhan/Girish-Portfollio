@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girish Chauhan | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="main-header">
+        <div>
+            <a href="https://github.com/girishchauhan" rel="noopener">
+                <img src="git logo.png" class="logos"></a>
+            <a href="https://codepen.io/girishchauhan" rel="noopener">
+                <img src="codepen logo.png" class="logos"></a>
+            <a href="https://www.linkedin.com/in/imgirishchauhan/" rel="noopener">
+                <img src="Linkedin logo.png" class="logos"></a>
+        </div>
+        <nav class="main-nav" id="mymain-nav">
+            <a href="#" class="active">Home</a>
+            <a href="#MyProject">My Projects</a>
+            <a href="#AboutMe">About me</a>
+            <a href="#">Contact me</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+
+    <div class="main" id="FirstContainer">
+
+        <div class="infocontainer">
+            <div class="devinfo">
+
+                <div class="intro">
+                    <p>Hey! I'm</p>
+                </div>
+                <div>
+                    <h1><i>Jayson</i></h1>
+                </div>
+                <button class="btn"><a href="#"></a>Visit My Portfolio</button>
+            </div>
+            <div class="devpic">
+                <img src="purepng.png" class="responsive">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="main-para">
+
+        <div class="Aboutme">
+            <div class="info">
+                <div class="head" id="AboutMe">
+                    <h1>About me</h1>
+                </div>
+                <div class="para">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius corporis quis dolorem beatae
+                        tenetur, voluptatibus nihil aliquid magni dolores. Reprehenderit voluptatibus, laboriosam
+                        consequatur debitis cupiditate expedita beatae totam quod aliquid ex molestias unde ullam,
+                        incidunt doloribus consectetur repudiandae ipsa. Illo dignissimos consectetur, recusandae
+                        impedit reiciendis expedita corporis praesentium laudantium? Eos, voluptatum. Impedit culpa
+                        aliquid dignissimos quo consequuntur commodi in nulla explicabo minus quis saepe esse nobis
+                        tempora quasi, autem mollitia dolorum maiores.</p>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="info head">
+        <h1>My Skills</h1>
+    </div>
+    <div class="tbl">
+
+        <div>
+            <label for="file">HTML: 70%</label>
+            <progress id="file" max="90" value="70"> 70% </progress>
+        </div>
+
+        <div>
+            <label for="file">CSS: 60%</label>
+            <progress id="file" max="116" value="70"> 60% </progress>
+        </div>
+
+        <div>
+            <label for="file">Javascript: 30%</label>
+            <progress id="file" max="250" value="70"> 30% </progress>
+        </div>
+    </div>
+
+
+    <div class="info head">
+        <h1>My Projects</h1>
+    </div>
+
+
+    <div class="flex-container" id="MyProject">
+        <div class="box">Project 1</div>
+        <div class="box">Project 2</div>
+        <div class="box">Project 3</div>
+    </div>
+
+<div class="fcontainer">
+    <form>
+        <input type="name" id="fname" name="name" placeholder="Enter Your Name">
+    </form>
+</div>
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mymain-nav");
+            if (x.className === "main-nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "main-nav";
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</html>
